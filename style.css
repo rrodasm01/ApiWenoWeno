@@ -1,0 +1,49 @@
+.estrellaColoreada{
+    width: 30px;
+}
+
+.estrellaColoreadaCard{
+    width: 30px;
+}
+
+.botonEstrella{
+    border: 0;
+    background-color: #f8f9fa;
+}
+
+.botonEstrellaCard{
+    border: 0;
+    background-color: white;
+}
+
+.brilloBajo{
+    filter: grayscale(100%);
+}
+
+.brilloNormal{
+    filter: grayscale(0%);
+}
+
+h4{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.card-img-top{
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.card-todo{
+    border: 1;
+    border-radius: 10%;
+    overflow-y: hidden;
+}
+
+.textarea{
+    resize: none;   
+}
